@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account </title>
+    <link     href="style.css" rel="stylesheet" type="text/css" >
+    <link  href="./font/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+</head>
+<body>
+    <section class="fisrtsidert">  
+       <div class="ender">
+            <div style="text-align: center; color: rgb(0, 116, 151); margin-top: 20px;">
+                <b>
+                    Sign Up 
+                </b>
+                <p><img id="output"  class="dowpibu"/></p> 
+            </div>
+          <form   class="fom" method="post">
+            <div  class="onip">
+                <i class="fa-solid fa-user " style="margin-right: 10px; color: rgb(0, 116, 151);"></i> <input  type="text" class="inpone" placeholder="User Name" required name="name">
+            </div>  
+            <div  class="onip">
+                <i class="fa-solid fa-lock"  style="margin-right: 10px; color: rgb(0, 116, 151);"></i> <input  type="password" id="pasty" class="inpone" placeholder="Password" required name="password">
+                </div>   
+                <div class="onip">
+                  <i class="fa-solid fa-eye"></i>  
+                <input type="checkbox" id="pashow"> 
+                <input type="checkbox" style="display: none;" id="lastcome">
+                </div>
+                         <div class="lopop"> 
+                          <p><input type="file"  accept="image/*" name="image" id="file" required onchange="loadFile(event)" style="display: none;"></p>
+                          <p><label for="file" style="cursor: pointer; color:  rgb(0, 116, 151); text-align: center;">Profile picture</label></p>
+                        </div>  
+             <div  class="onip">
+                <i class="fa-duotone fa-solid fa-envelope"  style="margin-right: 10px; color: rgb(0, 116, 151);"></i> <input  type="email" class="inpone" placeholder=" Email" required name="email">
+            </div>   
+            <div  class="onip">
+                <i class="fa-duotone fa-solid fa-mobile" style="margin-right: 10px; color: rgb(0, 116, 151);"></i> <input  type="number" class="inpone" placeholder=" Phone Number" required name="number">
+           </div>  
+           <div  class="onip">
+            <i class="fa-duotone fa-solid fa-building" style="margin-right: 10px; color: rgb(0, 116, 151);" ></i> <input  type="text" class="inpone" placeholder="Your Company name" required name="comname">
+       </div>    
+          <div  class=" check">
+            <input  type="checkbox"  placeholder=" Phone Number" required> <b style="font-size: 10px; color: rgb(0, 116, 151);"> By clicking you accept our <a href="" style="color:rgb(0, 116, 151) ;">Terms of services</a></b> 
+           </div>  
+           <div  class=" check">
+             <b style="font-size: 10px;  color: rgb(0, 116, 151);"> Allready have an Account  <a href="./login.html" style="color:rgb(0, 116, 151) ;"> Click here to log in</b>
+           </div>  
+             <div  class="onip">
+                 <button class="signbtn">
+                    <i class="fa-duotone fa-solid fa-hand-point-right"></i>    Sign Up Now
+                 </button>
+            </div>
+          </form>
+       </div>
+    </section>
+</body>
+<script src="./backend/signup.js" ></script>
+<script> 
+  var loadFile = function(event) {
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);  
+};     
+
+let pasty = document.getElementById('pasty');
+let pashow = document.getElementById('pashow');
+let lastcome = document.getElementById('lastcome');
+   pasty.onchange = function (e) { 
+    pasty.type="test"
+    pashow.style.display="none"
+    lastcome.style.display="block"
+   }
+   lastcome.onchange = function(e){
+    pasty.type="password" 
+    pashow.style.display="block"
+    lastcome.style.display="none"
+   }
+</script> 
+</html>

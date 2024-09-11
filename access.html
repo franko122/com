@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access to upload</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+<body> 
+    <section class="holders">
+        
+ <section class="containerss">
+    <section class="acc1"> 
+        <button class="annu" id="an"> <b>Monthly</b></button>
+        <button class="annus" id="nus"><b>Annualy</b></button> 
+     
+</section>
+<section class="monthy" id="onyh">
+   <div class="monty">
+       <b>
+           Monthly subscrition
+           <br>
+           <b>15NGN</b>
+       </b>
+   </div>
+   <br>   
+   <div class="montyz">
+     <b>
+       Monthly  Carriage Uploading Access 
+     </b>
+ </div>
+ <br>
+ <div class="montyz">
+      <b>
+       Monthly Job Uploading Access                    
+   </b>
+</div>
+<br>
+<div class="montyz">
+   <b>
+       Monthly Goods Uploading 
+    </b>
+</div>
+<div class="order"> 
+   <button class="orbtn" style="width: 100%;">Subscribe now</button>
+   </div>
+   <br>
+</section> 
+<section class="monthys" id="anyear">
+<div class="monty">
+   <b>
+       Annualy subscrition 
+       <br>
+       <b>50NGN</b>
+   </b>
+</div>
+<br>   
+<div class="montyz">
+ <b>
+   Annualy  Carriage Uploading Access 
+ </b>
+</div>
+<br>
+<div class="montyz">
+  <b>
+   Annualy Job Uploading Access                    
+</b>
+</div>
+<br>
+<div class="montyz">
+<b>
+   Annualy Goods Access 
+</b>
+</div>
+<div class="order"> 
+<button class="orbtn" style="width: 100%;">Subscribe now</button>
+</div>
+<br>
+</section>
+    </section>
+ </section>
+</body>
+<script >
+     let nus= document.getElementById("nus");
+    let an= document.getElementById("an");
+    let onyh = document.getElementById("onyh")
+    let anyear = document.getElementById("anyear")
+    nus.addEventListener("click",()=>{
+        nus.style.backgroundColor="white"
+        nus.style.color="rgb(0, 116, 151)"
+        an.style.border="solid white 2px"
+        an.style.color="white"
+        an.style.backgroundColor="inherit"
+        onyh.style.display="none"
+        anyear.style.display="block"
+    })
+    an.addEventListener("click",()=>{
+        nus.style.backgroundColor="inherit"
+        anyear.style.display="none"
+        nus.style.color="white"
+        onyh.style.display="block"
+        an.style.border="solid white 2px"
+        an.style.color="rgb(0, 116, 151)"
+        an.style.backgroundColor="white"
+    })
+</script>
+</html>

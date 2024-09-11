@@ -1,0 +1,1632 @@
+/* laptop side */
+@media(min-width:800px){
+    body{
+        margin: 0%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding:0%;
+    } 
+    .containerss{
+        width: 50%; 
+    }
+    .holders{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .monthys{
+        width: 90%;
+        margin: auto;
+        display: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border:  solid  rgb(0, 116, 151) 3px ;
+    }
+    .montyz{
+        padding: 5px;
+        font-size:1 7px;
+        color: rgb(0, 116, 151);
+        text-align: center;
+    }
+    
+    .monty{
+        padding: 5px;
+        font-size:25px;
+        color: rgb(0, 116, 151);
+        text-align: center;
+    }
+    .monthy{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border:  solid  rgb(0, 116, 151) 3px ;
+    }
+    
+    .annus{
+        width: 40%; 
+        padding: 14px;
+        background-color: rgb(0, 116, 151);
+        border:none;
+        cursor: pointer;
+        color: white;
+        border-radius:5px; 
+        border: white solid 2px;
+    }  
+    .annu{
+        width: 40%;
+        cursor: pointer;
+        padding: 14px;
+        background-color: white;
+        border:none;
+        border-radius:5px;
+        color: rgb(0, 116, 151);
+    }     
+    .infor1{
+        width: 100%;
+        height: 100vh;
+        z-index: 22;
+        overflow: hidden;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 116, 151, 0.221);
+        position: fixed;
+     }   
+     
+    .acc1{
+        width: 95%;
+        margin: auto;
+        border-radius: 5px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center; 
+        padding: 13px;
+        background-color: rgb(0, 116, 151);
+    }
+    .poloplh{
+        width: 100%;
+        border: none;
+        padding: 17px;
+        border-radius:5px;
+        background-color:rgb(0, 116, 151 );
+        color: white;
+    }
+    .poloplhs{
+        width: 100%;
+        border: none;
+        padding: 17px;
+        border-radius:5px;
+        background-color:red;
+        color: white;
+    }
+    .now{
+        width: 60%;
+        margin: auto;
+    }
+    .imgui{
+        margin: auto;
+        width: 95%;
+        height: 80%;
+    }
+    .pert{ 
+        font-size: 40px;
+        width: 100%;
+        color: rgb(0, 116, 151);
+        text-align: center; 
+    }
+    .loinfor{
+        border-radius:8px;
+        width:45%; 
+        background-color:white;
+    }
+    .holki::-webkit-scrollbar{
+        display: none;
+    }
+    body::-webkit-scrollbar{
+      display: none;
+    }
+    .upon{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        font-size: 12px;
+        justify-content: space-between; 
+    }
+    .lopop{
+        width: 10%;
+        height: 10px;
+        margin: auto;
+    }
+    .buger{
+        display: none;
+    }
+    .firstnav{
+         width:90%;  
+        position: fixed;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    } 
+     .sec2{
+        display: flex;
+        width:100%;  
+        align-items: center;
+    }
+    .judiv{
+        width: 20%;   
+        font-size:24px; 
+        display: flex;
+        align-items: center;
+        color: rgb(0, 116, 151);
+    }
+    .img2{
+        width: 20px;
+    }
+    .serdiv{
+        display: flex;
+        align-items: center; 
+        width: 50%;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    .ser1{
+        border: rgb(240, 240, 240) solid 2px ;
+        padding:7px;
+        border-radius: 5px;
+        width: 100%;
+        outline: none;
+    }
+    .nnop{
+        border-radius:4px;
+        width:100%;
+    }
+    
+    .lo9pioj{
+        margin: auto;
+        margin-bottom: 10px;
+        width: 30%;
+        border-radius: 10px;
+        border: 2px solid  rgb(0, 116, 151); 
+        padding: 10px;
+    }
+    .wrapers{
+        display: flex;
+        overflow-x: auto;
+        padding: 10px;
+    }  
+    .items{ 
+        height:260px;     
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px;
+        margin: 5px; 
+        width: 10%;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    } 
+    .itemss{ 
+        height:260px;     
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px;
+        width: 60%;
+        margin: 5px;
+        margin: auto;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    }
+    .serbtn{
+        outline: none;
+        padding: 8px;
+        font-size:12px;
+        background-color: rgb(0, 116, 151);
+        margin: 5px;
+        cursor: pointer; 
+        border: none;
+        border-radius: 4px;
+        color: white;
+    }
+    .right{
+        display: flex;
+        align-items: center;     
+        justify-content:flex-end;
+        width:50%; 
+    }
+    .accdiv{ 
+        font-style: bold;
+        color: rgb(0, 116, 151);
+        cursor: pointer;
+        display: flex;
+        font-size: 12px;
+        align-items: center ;
+    } 
+    .hedare{
+     width:100%;
+     background-color: rgb(0, 116, 151);
+     display: flex;
+     border-radius: 10px;  
+     justify-content: space-around;
+     margin: auto;
+     overflow: hidden;
+    }
+    .rightaide{
+        width: 75%;
+        padding:5px; 
+        height: 200px; 
+        overflow: hidden;
+        border-radius:5px;
+     
+    }
+    .nover{
+        color: rgb(0, 116, 151);
+        margin-left:6px;
+        font-size: 12px;
+        margin:6px;
+    }
+    .one32{
+        width: 100%;
+        height: inherit; 
+        border-radius: 10px;     
+        overflow: hidden;
+        background-blend-mode: multiply;
+        background-image: url(/assets/img/712_x_384.png); 
+        background-size: 100% 100%;
+    }  
+    .ee3{
+        width: 100%;
+        display: none;
+        background-blend-mode: multiply;
+        background-image: url(/assets/img/CXP_PROTEST_712X384.png); 
+        background-size: 100% 100%;
+        border-radius: 10px;     
+        height: inherit;  
+    }
+    .middle{
+       width: 20%;
+       padding: 10px;
+       background-color: white;
+       margin: 10px;
+       border-radius: 10px;
+    }
+    .yoga{
+        width: 25%;
+        margin-top:11px;
+        padding: 5px;
+        height: inherit; 
+    }
+    .contact{
+        width: 100%;
+        border-radius: 4px;
+        background-color: white;
+        height:45px;
+        font-size: 11px;
+        text-align: center; 
+        color: rgb(0, 116, 151);
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+    .holder{
+        width: 100%;
+        margin: auto;
+    }
+    .oneup{
+        width:30%;
+        margin: auto; 
+        display: flex;
+        margin-top: 20px; 
+        justify-content: space-around;
+    } 
+    .uni{
+        width: 8%;   
+        cursor: pointer;
+    }
+    .unis{
+        width:100%;  
+        height: 20px;
+        justify-content: space-around;
+        font-size: 11px;
+        color: rgb(0, 116, 151); 
+        cursor: pointer;
+        align-items: center;
+        display: none;
+    }
+    
+    .itemss{ 
+        height:260px;     
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px;
+        width:30%;
+        margin: 5px;
+        margin: auto;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    }
+    .em{
+        width: 100%; 
+        height: 7px;
+        border-radius: 4px;
+        margin-top: 2px;
+       background-color: rgb(0, 116, 151); 
+    }
+    .drop{
+        height:0px;
+        width: 16%;
+        cursor: pointer;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 12px;
+        overflow: hidden;
+        color: white;
+        background-color: rgb(0, 116, 151); 
+        margin: 5px;
+    } 
+    .lopol{
+        color: rgb(0, 116, 151); 
+        display: none;
+    }
+    .dropcon{
+        width: 100%; 
+        margin-top: 10px;
+        display: flex;  
+        justify-content: end; 
+    }
+    .uniw{ 
+        width: 8%;   
+        cursor: pointer;
+        display: none;
+    }
+    .btnlog{ 
+        padding:8px;
+        display: flex;
+        align-items: center;
+        color: white ;
+        border-radius:4px;
+        font-size:10px;
+        margin-right: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(0, 116, 151);
+    }
+    .btnlogs{ 
+        padding:8px;
+        display: flex;
+        align-items: center;
+        color: white ;
+        border-radius:4px;
+        font-size:10px;
+        border: none; 
+        margin-right: 20px;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(0, 116, 151);
+    }
+    .omosee{
+        padding:8px;
+        display: flex;
+        align-items: center;
+        color: white ;
+        border-radius:4px;
+        font-size:13px;
+        border: none;
+        margin-top: 20px;
+        width: 80px;
+        justify-content: center; 
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(0, 116, 151);
+    }
+    .deoi{
+        display: flex;
+        width: 100%;
+    }
+    .proside{
+        width:50%; 
+        height: 30px;   
+        margin: auto;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        font-size:12px;  
+    } 
+    .downsectionss{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 3px; 
+    }
+    .oner{
+        width: 15%; 
+        border: solid 2px rgb(0, 116, 151);
+        padding: 5px;
+        border-radius: 10px; 
+        font-size: 11px;
+        color: rgb(0, 116, 151);
+    }
+    .onerss{
+        width: 60%; 
+        border: solid 2px rgb(0, 116, 151);
+        padding: 5px;
+        margin: auto;
+        border-radius: 10px; 
+        font-size: 11px;
+        color: rgb(0, 116, 151);
+    }
+    .order{
+        width: 50%; 
+        margin: auto; 
+        margin-top: 6px;
+    }
+    .orbtn{
+        background-color:rgb(0, 116, 151) ;
+        color: white;
+        padding: 6px;
+        border: none;
+        outline: none;  
+        font-size: 12px;
+        cursor: pointer;
+        border-radius:3px;
+    }
+    .downfoot{
+        width: 100%; 
+        margin-top: 10px;
+        background-color:rgb(0, 116, 151) ;
+    }
+    .loader{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        font: bold;
+        color: white;
+        z-index: 22;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgb(0, 116, 151);
+    }
+    .emfoot{
+        width:20%;
+        cursor: pointer;
+        color: white; 
+        font-size: 13px;
+        padding: 10px;
+        height: 200px;  
+    }
+    .fisrtsidert{
+        width: 100%;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .starter{ 
+        width: 50%;
+        display: flex; 
+        height: inherit; 
+        align-items: center;
+        overflow: hidden;
+    }
+    .imgside{ 
+        border-radius: 10px;
+      width: 80%;
+      margin: 10px;
+    } 
+    .ender{
+        width: 50%;   
+    }
+    .onip{
+        width:50%;
+        margin: auto;  
+        align-items: center;
+        display: flex;
+        margin-top: 20px;
+    }
+    .inpone{
+        width: 100%;
+        padding: 10px;
+        color:rgb(0, 116, 151) ;
+        border-radius: 4px;
+        border:rgb(0, 116, 151) solid 2px ;
+        outline: none;
+    } 
+    .inpone::placeholder{
+        color:rgb(0, 116, 151)  ;
+    }
+    .signbtn{
+        width: 109%;
+        height: 40px;
+        background-color:rgb(0, 116, 151) ;
+        color: white;
+        outline: none;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+    .downsign{ 
+        width: 45%; 
+        margin: auto; 
+    }
+    .check{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding:5px;
+        justify-content: center;
+        margin: auto;
+    }
+    .mento{
+        width: 100%;
+        position: fixed; 
+        z-index: 20;
+        display: none;
+        margin-left: -100px;
+        align-items: center;
+        justify-content: space-around; 
+        background-color: white;
+        height: 100vh; 
+        padding: 10px;
+    }
+    .men3to{
+        width: 100%;   
+        background-color: rgba(0, 116, 151, 0.801)  ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; 
+        padding: 10px;
+    }
+    .sidert8{
+        width: 60%;
+        border-radius: 10px;
+        color:rgb(0, 116, 151)  ;
+        height: 400px; 
+        background-color: white;
+    }
+    .sidert8d{
+        width: 60%;
+        border-radius: 10px;
+        color:rgb(0, 116, 151)  ;
+        height: 400px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .weth{ 
+        border-radius: 10px;
+        width: 100%; 
+        display: flex;
+    }
+    .cat1{
+        width: 50%;
+        height: inherit; 
+    }
+    .cat2{
+        width: 50%; 
+        height: inherit;
+    }
+    .inhy{
+        width: 70%;  
+        margin: auto;
+        color: white;
+        height:40px;
+        border-radius:7px; 
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(255, 136, 0) ;
+    }
+    .inhys{
+        width: 70%;  
+        margin: auto;
+        color: white;
+        height:40px;
+        border-radius:7px; 
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color:rgb(0, 116, 151) ;
+    }
+    .carter{
+        width: 60%;
+        border-radius: 10px;
+        overflow: scroll;
+        height: 100vh; 
+    }
+    .carter::-webkit-scrollbar{
+        display: none;
+    }
+    .carters{
+        width: 25%;
+        border-radius: 10px;
+        overflow: scroll;
+        margin: auto;
+        height: 100vh;
+        background-color: white; 
+    }
+    .carters::-webkit-scrollbar{
+        display: none;
+    }
+    .onerg{
+        width: 80%; 
+        border: solid 2px rgb(0, 116, 151);
+        padding: 5px;
+        border-radius: 10px; 
+        background-color: white;
+        font-size: 11px;
+        margin: auto;
+        color: rgb(0, 116, 151);
+    }
+    .rightdibtr{
+        width: 100%;  
+        margin: 10px;
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mono{
+        display: flex; align-items: center; justify-content: space-between;
+    }
+    .noiu{  
+        background-color: rgb(0, 116, 151); 
+        color: white; border: none; outline: none;
+        font-size: 11px;
+         padding:8px; border-radius:4px; cursor: pointer;
+    }
+    .metho{
+        width: 50%;
+        height: 310px;
+        margin: auto;
+        border-radius: 10px; 
+    }
+    .firstsidrey{
+        width: 100%;
+        height: 100vh;  
+    }
+    .molo{
+        width: 80%;
+        height: 500px;  
+        margin: auto;
+    }
+    .themss{
+        display: none;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+        width:40%;
+        padding: 10px;
+        background-color:  rgb(0, 116, 151);
+    }
+    
+  .well{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(41, 207, 41);
+    text-align: center;
+    font-size: 10px;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+  }
+    .met{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        color: rgb(0, 116, 151);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        border-radius:3px;
+    }
+    .downad{
+        width:30%; 
+        margin: auto;  
+        overflow: scroll; 
+    }
+    .downad::-webkit-scrollbar{
+         display: none;
+    } 
+    .unop{
+        width: 90%;
+        border:rgb(0, 116, 151) solid 2px;
+        border-radius: 10px;
+        margin: auto;
+        padding: 8px;
+        color: rgb(0, 116, 151);
+        font-size: 13px;
+    }
+    .sida{
+        width: 70%;
+        outline: none;
+        border: none; 
+    }
+    .sert{
+        border: none;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: rgb(0, 116, 151);
+    }
+    .mets{ 
+        background-color: rgb(255, 0, 0);
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        border-radius:3px;
+    }
+    .formwe{
+        width: 60%; 
+        margin: auto;
+        display: none;
+    }
+    .formwes{
+        width: 60%; 
+        margin: auto;
+        display: block;
+    }
+    .nok{
+        width: 50%;
+        margin: auto;
+    } 
+    .lo{  
+        height:300px;
+        width:55%; 
+        overflow-x: scroll;
+        margin: auto; 
+        transform: rotate(90deg); 
+        }
+        .noga{
+            width: 100%;
+            height: 200px;
+            background-color: red;
+            background-image: url(/assets/img/712_x_384.png);
+            background-size: 100% 100%;
+            transform: rotate(-90deg); 
+        } 
+        .dowpibu{
+            margin-left: 10px;
+            width: 20%; 
+            height:80px;
+        }
+        .holki{
+            display: flex;
+            justify-content: space-between; 
+        }
+         
+    .lopoi{
+        width: 65%;
+        margin: auto;
+        border-radius: 10px;
+        height: 200px;
+        background-color: rgb(245, 245, 245);
+        margin-bottom: 10px;
+    }
+    .vert{
+        width: 100%;
+     color: rgb(0, 116, 151);
+     text-align: center;
+    }
+    .ham{
+        color: rgb(0, 116, 151);
+        font-size: 20px;
+       }
+    .hams{
+        color: rgb(0, 116, 151);
+        font-size: 20px; 
+        display: none; 
+    }
+    .kol{
+        width: 100%;
+        background-color: red;
+        outline: none;
+        padding: 10px;
+        color: white;
+        font-size: 10px;
+        border: none;
+        
+    }
+    .kols{
+        width: 100%;
+        background-color:rgb(0, 116, 151);
+        outline: none;
+        margin-bottom: 2px;
+        padding: 10px;
+        color: white;
+        font-size: 10px;
+        border: none;
+        
+    }
+}
+
+/* mobile  */
+@media(max-width:800px){
+    .accesdid{
+        width:15px;
+        border-radius: 100px;
+        height:15px;
+        animation-name: luy;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        margin-left: 10px;  
+    }
+  @keyframes luy {
+    10%{
+        background-color: white;
+    }
+  }
+    .monty{
+        padding: 5px;
+        font-size:25px;
+        color: rgb(0, 116, 151);
+        text-align: center;
+    }
+    .monthy{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border:  solid  rgb(0, 116, 151) 3px ;
+    }
+    
+    .monthys{
+        width: 90%;
+        margin: auto;
+        display: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: white;
+        border:  solid  rgb(0, 116, 151) 3px ;
+    }
+    .montyz{
+        padding: 5px;
+        font-size:1 7px;
+        color: rgb(0, 116, 151);
+        text-align: center;
+    }
+    
+    .annus{
+        width: 40%;
+        padding: 14px;
+        background-color: rgb(0, 116, 151);
+        border:none;
+        color: white;
+        border-radius:5px; 
+        border: white solid 2px;
+    }  
+     .annu{
+        width: 40%;
+        padding: 14px;
+        background-color: white;
+        border:none;
+        border-radius:5px;
+        color: rgb(0, 116, 151);
+    }
+    .acc1{
+        width: 95%;
+        margin: auto;
+        justify-content: space-around;
+        display: flex;
+        align-items: center; 
+        padding: 13px;
+        background-color: rgb(0, 116, 151);
+    }
+    .oneupl{
+        width: 1005;
+        text-align: center;
+        font-size:25px;
+        color: rgb(0, 116, 151);
+    }
+    .infor1{
+       width: 100%;
+       height: 100vh;
+       z-index: 22;
+       overflow: hidden;
+       display: none;
+       align-items: center;
+       justify-content: center;
+       background-color: rgba(0, 116, 151, 0.221);
+       position: fixed;
+    }   
+    .koon{
+        text-align: right;
+        padding: 5px;
+        font-size: 20px;
+        color: rgb(161, 161, 161);
+    }
+    .imgui{
+        margin: auto;
+        width: 95%;
+        height: 80%;
+    }
+    .pert{ 
+        font-size: 40px;
+        width: 100%;
+        color: rgb(0, 116, 151);
+        text-align: center; 
+    }
+    .loinfor{
+        border-radius:8px;
+        width:95%; 
+        background-color:white;
+    }
+    .poloplh{
+        width: 100%;
+        border: none;
+        padding: 17px;
+        border-radius:5px;
+        background-color:rgb(0, 116, 151 );
+        color: white;
+    }
+    .poloplhs{
+        width: 100%;
+        border: none;
+        padding: 17px;
+        border-radius:5px;
+        background-color:red;
+        color: white;
+    }
+    .now{
+        width: 60%;
+        margin: auto;
+    }
+    .upon{
+        display: none;
+    }
+    .hams{
+     color: rgb(0, 116, 151);
+     font-size: 20px; 
+     display: none;
+     
+    }
+    .lo9pioj{
+        border: 2px solid  rgb(0, 116, 151); 
+        width:80%;
+        margin: auto;
+    }
+    .kols{
+        width: 100%;
+        background-color:rgb(0, 116, 151);
+        outline: none;
+        margin-bottom: 2px;
+        padding: 10px;
+        color: white;
+        font-size: 10px;
+        border: none;
+        
+    }
+    .novert{
+        width: 50%; 
+        margin: auto;
+    }
+    .nnop{
+        border-radius:4px;
+        width:100%;
+    }
+    
+    .kol{
+        width: 100%;
+        background-color: red;
+        outline: none;
+        padding: 10px;
+        color: white;
+        font-size: 10px;
+        border: none;
+        
+    }
+    .novert{
+        width: 50%; 
+        margin: auto;
+    }
+    .ham{
+        color: rgb(0, 116, 151);
+        font-size: 20px;
+       }
+    .formwe{
+        width: 90%; 
+        margin: auto;
+        display: none;
+    }
+    .sert{
+        border: none;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        width:100%;
+        border-radius: 5px;
+        background-color: rgb(0, 116, 151);
+    }
+    .unop{
+        width: 90%;
+        border:rgb(0, 116, 151) solid 2px;
+        border-radius: 10px;
+        margin: auto;
+        padding: 8px;
+        margin-top:20px;
+        color: rgb(0, 116, 151);
+        font-size: 13px;
+    }
+    .sida{
+        width: 70%;
+        outline: none;
+        border: none; 
+    }
+    .proside{ 
+        padding: 10px; 
+        display: flex;
+        width:90%;
+    }
+    
+    .downad{
+        width:90%; 
+        margin: auto;  
+        overflow: scroll; 
+    }
+    .downad::-webkit-scrollbar{
+         display: none;
+    } 
+    .mets{ 
+        background-color: rgb(255, 0, 0);
+        padding: 14px;
+        color: rgb(255, 255, 255);
+        outline: none;
+        border: none; 
+        width: 40%;
+        margin: 4px;
+        cursor: pointer;
+        font-size: 10px;
+        border-radius:3px;
+    }
+    .met{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        color: rgb(0, 116, 151);
+        outline: none;
+        margin: 2px;
+        width:100%; 
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        border-radius:3px;
+    }
+    .themss{
+        display: none;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 10px;
+        background-color:  rgb(0, 116, 151);
+    }
+    .noga{
+        width:80%;
+        height: 300px; 
+        background-image: url(/assets/img/712_x_384.png);
+        background-size: 100% 100%;
+        transform: rotate(-90deg);   
+    } 
+    .lo{  
+        height:350px;
+        width:100%;  
+        overflow-x: scroll;
+        margin: auto; 
+        transform: rotate(90deg); 
+        }
+    .inhy{
+        width: 70%;  
+        margin: auto;
+        color: white;
+        height:40px;
+        border-radius:7px; 
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(255, 136, 0) ;
+    }
+    .lo::-webkit-scrollbar{
+       display: none;
+    }
+    .dowpibu{
+        width:60px; 
+        height: 60px; 
+        padding: 6px;
+        background-color: rgb(0, 116, 151);
+        border-radius: 100px;
+    } 
+    
+    .weth{ 
+        border-radius: 10px;
+        width: 100%;  
+    }
+    .sidert8d{
+        width: 100%;
+        border-radius: 10px;
+        color:rgb(0, 116, 151)  ; 
+        background-color: rgb(255, 255, 255);
+    }
+    .men3to{
+        width: 100%;   
+        background-color: rgba(0, 116, 151, 0.801)  ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; 
+        padding: 10px;
+    }
+    .lopoi{
+        width: 95%;
+        margin: auto;
+        border-radius: 10px;
+        height: 200px;
+        background-color: wheat;
+        margin-bottom: 10px;
+    }
+    .vert{
+        width: 100%;
+     color: rgb(0, 116, 151);
+     text-align: center;
+    }
+    .ender{
+        width: 95%; 
+        margin: auto;
+    }
+    body{ 
+        margin: 0%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding:0%;
+  }
+  .firstnav{
+    background-color: white;
+    width: 100%; 
+    display: flex;
+    height:40px;
+    padding: 4px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .holdnav{
+    position: fixed;
+  }
+  .unis{
+    display: none;
+  }
+  .img2{
+    width: 20px;
+  }
+  .sec2{
+      display: flex;
+      width:80%; 
+      justify-content: center;
+}
+  .serdiv{ 
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .ser1{
+    width:30%;
+    padding: 5px;
+    outline: none;
+     margin-left:5px;
+     border-radius:3px;
+    border: rgb(243, 243, 243)  2px solid;
+  }
+  .ser1::placeholder{
+    font-size: 10px;
+  }
+  .serbtn{
+    padding: 8px;
+    background-color: rgb(0, 116, 151);
+    color:white;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+    width: 70px;
+     margin-left:5px;
+    font-size: 10px;
+  }
+  .judiv{
+    margin-left: 10px;
+    width: 100%;
+    background-color: red;
+    font-size:10px;
+  }
+  .rigth{
+    display: block;
+  } 
+  .well{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(41, 207, 41);
+    text-align: center;
+    font-size: 10px;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    color: white;
+  }
+  .proside{ 
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    color: rgb(0, 116, 151);
+    border-radius: 100px;
+}
+.btnlog{ 
+    padding:8px;
+    display: flex;
+    align-items: center;
+    color: white ;
+    border-radius:4px;
+    font-size:10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(0, 116, 151);
+}
+    .colio{
+        width:9%; 
+        margin-right: 13px;
+    }
+    .noe{
+        width: 100%;
+        margin:3px; 
+        padding: 3px;
+        border-radius: 6px;
+    background-color: rgb(0, 116, 151);
+    }
+    .buger{
+        display: none;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        z-index: 22;
+        justify-content: center;
+        height: 100vh;
+    }
+    .onerto{
+        width: 70%;
+        border-radius: 10px; 
+        text-align: center;
+        background-color: rgb(0, 116, 151);
+
+    }
+    .mento{
+        display: none;
+    }
+    .oiliu{
+        width: 90%;
+        border-radius:10px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        color: rgb(0, 116, 151);
+        height:40px;
+        margin: auto;
+        background-color: white;
+        font-size: 13px;
+    } 
+    .hedare{
+        display: block;
+    } 
+    .drop{
+        display: none;
+    }
+    .rightaide{
+        width: 95%;
+        margin: auto;
+        padding:5px; 
+        margin-top: 10px;
+        height: 150px; 
+        display: flex;
+        overflow: hidden;
+        border-radius:5px; 
+    }
+    .one32{
+        width: 100%;
+        height: inherit; 
+        border-radius: 10px;     
+        overflow: hidden;
+        background-blend-mode: multiply;
+        background-image: url(/assets/img/712_x_384.png); 
+        background-size: 100% 100%;
+    }  
+    .ee3{
+        width: 100%;
+        display: none;
+        background-blend-mode: multiply;
+        background-image: url(/assets/img/CXP_PROTEST_712X384.png); 
+        background-size: 100% 100%;
+        border-radius: 10px;     
+        height: inherit;  
+    }
+    .dropcon{
+        display: none;
+    }
+    
+    .contact{
+        width: 100%;
+        border-radius: 4px;
+        background-color: white;
+        height:15px;
+        font-size: 11px;
+        text-align: center; 
+        color: rgb(0, 116, 151);
+        display: NONE;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+    .yoga{
+        width:100%;
+        margin-top:11px;
+        display: none;
+        padding: 5px;
+        height: inherit; 
+    }
+    .nover{
+        color: rgb(0, 116, 151);
+        margin-left:6px; 
+        font-size: 12px;
+        margin:6px;
+    }
+    .holki{
+            width:100%; 
+            display: flex ; 
+            overflow-x: scroll;
+            margin: auto;
+    }
+    .noiu{ 
+        font-size: 10px;
+        width:70%;  
+        padding: 20px;
+        margin:2px;
+        background-color: rgb(0, 116, 151); color: white; border: none; outline: none; padding:8px; border-radius:4px; cursor: pointer;
+    }
+    .oner{
+        margin: auto;
+        width: 70%;
+        font-size: 10px;margin-top: 20px;
+        height: inherit;
+        border:rgb(0, 116, 151) 2px solid  ;
+        border-radius: 10px;
+        color: rgb(0, 116, 151);
+        padding:4px;
+    }
+    .orbtn{ 
+        background-color:rgb(0, 116, 151) ;
+        color: white;
+        padding: 6px;
+        border: none; 
+        outline: none;  
+        font-size: 12px;
+        cursor: pointer; 
+        border-radius:3px;
+    }
+    .order{
+        width: 70%; 
+        padding: 8px;
+        margin: auto;
+    }
+    .omosee{
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(0, 116, 151);
+    }
+    .dowslide{
+        width: 80%; 
+        height: 10px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .downfoot{ 
+        display: block;
+        color: white; 
+               background-color: rgb(0, 116, 151);
+
+    }
+    .emfoot{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .deoi{
+        display: block;
+    }
+    .carter{
+        height: 100vh;
+        z-index: 22;background-color: white;
+        width: 100%; 
+        position: fixed;
+    }
+    .wrapers{
+        display: flex;
+        overflow-x: auto;
+        padding: 10px;
+    }
+    .wrapers .items{
+        min-width: 50%;   
+    }
+    
+    .items{ 
+        height:260px;     
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px;
+        margin: 5px;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    } 
+    .itemss{  
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px;
+        width: 60%;
+        margin: 5px;
+        margin: auto;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    }
+    .lopol{
+        color: rgb(0, 116, 151); 
+        display: block;
+    } 
+    .fom{
+        margin: auto;
+        width: 90%;
+    }
+    
+    .onip{
+        width:100%;
+        margin: auto;  
+        align-items: center;
+        display: flex;
+        margin-top:10px;
+    }
+    .check{
+        text-align: center;
+    }
+    .inpone{
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        margin: 10px;
+        color:rgb(0, 116, 151) ;
+        border-radius: 4px;
+        border:rgb(0, 116, 151) solid 2px ;
+        outline: none;
+    } 
+    
+    .loader{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        font: bold;
+        color: white;
+        z-index: 22;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgb(0, 116, 151);
+    }
+    .signbtn{ 
+        width: 109%;
+        height: 40px;
+        background-color:rgb(0, 116, 151) ;
+        color: white;
+        outline: none;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+} 
+
+/* Tablet screen */  
+@media( min-width:600px){ 
+    .lo9pioj{
+        width: 40%;
+        margin: auto;
+    }
+    .noga{
+        width:70%;
+        height: 300px; 
+        background-image: url(/assets/img/712_x_384.png);
+        background-size: 100% 100%;
+        transform: rotate(-90deg);   
+    } 
+    .lo{  
+        height:350px;
+        width:100%;  
+        overflow-x: scroll;
+        margin: auto; 
+        transform: rotate(90deg); 
+        }
+    .buger{
+        margin-left: -120px;
+    }
+    .firstnav{
+        width: 80%;
+    }
+    .carter{
+        margin-left:-82px;
+    }
+    .holder{
+        width:80%;
+        margin: auto;
+    } 
+    .items{ 
+        height:260px;     
+        border:  solid 3px rgb(0, 116, 151);
+        padding: 5px; 
+        margin: 5px;
+        border-radius:10px;
+        font-size: 10px;
+        color: rgb(0, 116, 151);        
+    }    
+    .btnind{
+        background-color: rgb(0, 116, 151);
+        color: white; 
+        padding: 10px;
+        width: 100%;
+        border: none;
+        outline:none;
+        border-radius:5px;
+    }
+    .wrapers .items{
+        min-width: 30%;   
+    } 
+    .holki{
+        width:100%; 
+        display: flex ;
+        overflow-x: scroll;
+        margin: auto;
+}
+}
+/* Smart tv screen */ 
+@media(min-width:1500px){
+      .firstnav{
+        width: 40%;
+      }
+     .holder{
+        width:40%;
+        margin: auto;
+     }
+     .loinfor{
+        width:20%;
+     }
+     .carter{
+        margin-left: -1000px;
+     }
+}
